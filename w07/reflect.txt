@@ -1,0 +1,24 @@
+*****************************************************************************
+                          Workshop - #7 (P1)
+Full Name  : Vincent Le 
+Student ID#: 131117228
+Email      : vle21@myseneca.ca
+Section    : NJJ
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1. Having a structure within your code can make your program more readable and
+allow your program to run more efficiently and can make it more stable. Another 
+benifit with structures is that when you need to change a value of a variable or 
+change the way the variable is declared. It is very easy to find where the variable is located
+since its within the structure. This is shown within  my program where I delcared all the variables I need
+for the playerinfo and gameinfo within 2 different structures. This allows me to organize the varaiables and know
+what variable is used for the playerinfo and gameinfo.
+2.In order to keep the history of games played we should delcare a character array that can store the history
+and create a for loop that would add the contents of the number of lives, treasure and moves everytime the program runs.
+3.I spent most of my time figuring out how to clear the character array everytime the logic runs with out using any ex
+that I wasn't taught in class. In order to over come my problem I figured that if I created a for loop that runs a certain 
+amount of times that adds '\0' to each section of a array it would clear the array.

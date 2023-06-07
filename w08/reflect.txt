@@ -1,0 +1,61 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #8
+Full Name  : Vincent Le	
+Student ID#: 131117228
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1. The Structure would need atleast need 60 bytes since the structure has 6 
+double and 3 interger variables. 1 interger variable equals to 4 bytes and 
+1 double variable equals 8 bytes. There for since there are 6 double and 3 
+interger varaibles if we do basic math. (6*8)+ (3*4)=60. In order to improve
+the passing of information through functions we can pass a structure array 
+into the function. Within my program when displaying the ReportData I passed
+struct I set a array with type "struct Reportdata" and passed the array through
+the function and set the parameter of the function to recieve the ReportData structure.
+
+2.
+struct CatFoodInfo {
+    int sku;
+    double price;
+    int calories;
+    double weight;
+};
+struct ReportData {
+    int sku;
+    double price;
+    int calories;
+    double weight_lbs;
+    double weight_kg;
+    int weight_g;
+    double servings;
+    double cost_per;
+    double cost_cal;
+};
+The structures above is what I have currently in my program. Since the first 4 variables in ReportData
+are similar to CatFoodInfo. We can replace the first 4 variables by calling in the structure CatFoodInfo.
+struct CatFoodInfo {
+    int sku;
+    double price;
+    int calories;
+    double weight;
+};
+struct ReportData {
+    double weight_kg;
+    int weight_g;
+    double servings;
+    double cost_per;
+    double cost_cal;
+    struct CatFoodInfo data;
+};
+This is the improved version of the structure ReportData. All I did was deleting the first 4 varaibles and 
+calling the CatFoodInfo and initializing a variable with the structure.
+In order to print the structure variables we need to add the structure variable for ReportData followed by the structure variable for CatFoodInfo followed by the variable in the structure.
+OLD:
+printf("\n%07d ....", ReportData.sku, ....
+NEW:
+printf("\n%07d ....", ReportData.data.sku, ....
