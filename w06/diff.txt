@@ -1,0 +1,14 @@
+In line number 103 of your output:
+The output should be:
+NOTE: Financing options are available on some items.
+^
+But your output is: 
+====================================================
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [N] ASCII code(78)
+but you printed
+  [=] ASCII code(61)
+

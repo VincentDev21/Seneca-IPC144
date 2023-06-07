@@ -1,0 +1,26 @@
+*****************************************************************************
+<assessment name example: Workshop - #4 (Part-1)>
+Full Name : Vincent Le
+Student ID#:13117228
+Email :vle21@myseneca.ca
+Section :NJJ
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. Selection is important since it allows us user to apply a set a parameters withing the program
+to make sure that the user is entering the correct value. This is shown multiple times within my code.
+For part 2 I have coded multiple line of code to allow a user to enter a number of apples,oranges,pears
+,tomatoes,and cabbage that has to be greater or equal to 0. I also coded mutiple lines of code in which it asks
+the user to select different loop types and number of times to iterate that must have an capital letter. I also 
+coded a line of code in which a user enter a certian value, that the program would stop.
+
+2. A nested construct allows programmers to loop a statement to verify if its correct or not. The nested construct i have
+added in my program was a nested if statement and a nested for statement. the nested if statement allowed the program 
+to verify the correct value and the nested for statement allowed the program to pick the right value.
+
+3. My favourite construct is the IF construct sine it is very easy to initialize compared to other constructs and 
+the IF construct allows other constructs to work together. in my program I used a while statement nested with the IF 
+construct which allows the program to run mutiple times and break the program if needed.

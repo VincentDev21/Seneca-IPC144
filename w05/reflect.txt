@@ -1,0 +1,64 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #5
+Full Name  : 
+Student ID#: 
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1. What I have done is that I have created a switch statment nested in a if statement 
+which allows the switch statment to run when the if statement's conditions are met. 
+ 
+if (year>=MIN_YEAR&& year<=MAX_YEAR &&month>0&&month<=12) { // if statement initialize
+            printf("\n*** Log date set! ***\n");
+
+            switch (month) { // switch statement initialize when if statement is true.
+            case 1:
+                printf("\nLog starting date: %d-JAN-01", year);
+                break;
+            case 2:
+                printf("\nLog starting date: %d-FEB-01", year);
+                break;
+            case 3:
+                printf("\nLog starting date: %d-MAR-01", year);
+                break;
+            case 4:
+                printf("\nLog starting date: %d-APR-01", year);
+                break;
+            case 5:
+                printf("\nLog starting date: %d-MAY-01", year);
+                break;
+            case 6:
+                printf("\nLog starting date: %d-JUN-01", year);
+                break;
+            case 7:
+                printf("\nLog starting date: %d-JUL-01", year);
+                break;
+            case 8:
+                printf("\nLog starting date: %d-AUG-01", year);
+                break;
+            case 9:
+                printf("\nLog starting date: %d-SEP-01", year);
+                break;
+            case 10:
+                printf("\nLog starting date: %d-OCT-01", year);
+                break;
+            case 11:
+                printf("\nLog starting date: %d-NOV-01", year);
+                break;
+            case 12:
+                printf("\nLog starting date: %d-DEC-01", year);
+                break;
+2. The 3 different iterations constructs are while loop,do-while loop, and for loop. 
+The loop that I decided to use was a while loop since for this workshop it requires the user 
+to enter a correct input that fits within the a certian range. The while loop allows the program
+to run constantly until the condtitions are met and would break the program.
+
+3. When I complete the program I usually debug and run the program to find any errors within my code.
+For this workshop I mainly encounterd semantic problems I was having some trouble getting the logic
+right when initializing the if statement where it would print and break. I have encounterd some syntactic errors
+was when nesting the if statements and switch statement with the while loop but I have overcame that by
+reading the material that the teacher provided us.

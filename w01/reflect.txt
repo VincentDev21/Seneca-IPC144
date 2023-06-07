@@ -1,0 +1,37 @@
+****************************************************************************
+                              Reflection
+                             Workshop - #1
+Full Name  : Vincent Le		
+Student ID#: 131117228
+Email      : vle21@myseneca.ca
+Section    : NJJ
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+****************************************************************************
+
+1. What you have learned in completing this workshop (do not leave anything out!)
+
+In this workshop I have learned on how to utilize visual studio code to compile simple programs related 
+to the workshop I was given. I also learned on how to use the matrix and the SSH client I was using to 
+upload, run, and submit my code. Lastly, I learned how to compile a C program which displays text on 
+screen.
+
+
+
+ 
+2. Briefly describe what SSH is and how you used it in this workshop 
+
+An SSH or secure shell protocol allows users to intract with the linux server in order to create directories and run programs that has been uploaded onto the linux server.
+Users may use a SSH client ex, PuTTy, or command prompt, if on windows, or the terminal, if on mac, to access the SSH. 
+During the workshop SSH is used to create directories in order to keep things organized, run the C program that we were required to compile and submit to our instructor.
+
+
+
+3. Briefly describe what SFTP is and how you used it in this workshop
+
+An SFTP, also known as secure file transfer protocol, allows users to transfer files through a secure network on to a remote linux server which allows other users to access it if granted permission by the admindestrator.
+In order to access the server users are required to use a SFTP client ex.WinSCP, File Zilla, etc to upload or download files using the secure network.
+In this workshop SFTP is used to upload a C compiled program in order for the matrix to access and run the program.

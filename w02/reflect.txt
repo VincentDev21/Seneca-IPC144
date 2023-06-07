@@ -1,0 +1,59 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca	
+Section    : NJJ
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+
+1. Given the following C statements:
+double price1 = 10.10, price2 = 10.12, price3 = 10.15; 
+int cents1 = (int)(price1 * 100); 
+int cents2 = (int)(price2 * 100); 
+int cents3 = (int)(price3 * 100); 
+printf("%d 10.10 = %.15lf\n", cents1, price1); 
+printf("%d 10.12 = %.15lf\n", cents2, price2); 
+printf("%d 10.15 = %.15lf\n", cents3, price3);
+Briefly explain why the cents2 variable doesn't properly represent the total cents of price2.
+
+This can be caused due to the binary number not accurately representing the decimal number. Floating point numbers are represented similary to a scientific notation which includes a exponent and mantissa.
+During the calculation there may be an error when converting the binary number to the decimal number which leads in loss of precision.
+
+2.
+int main()
+{
+    int subtotal;
+    
+    printf("Enter amount= ");
+    scanf("%d", &subtotal);
+    
+    int $50,$20,$10,$5;
+    
+    $50= subtotal/50;
+    $20= (subtotal-50*$50)/20;
+    $10=(subtotal-50* $50-20*$20)/10;
+    $5=(subtotal-50* $50-20*$20-10*$10)/5;
+    printf("$50= %d\n" "$20= %d\n" "$10= %d\n" "$5= %d", $50, $20, $10, $5);
+    return 0;
+}
+
+3.
+#include <stdio.h>
+
+int main()
+{
+    int total;
+    printf("Enter total amount of money: ");
+    scanf("%d", &total);
+    printf("%.2lf", (double)total/100);
+    printf("\n%.2f\n", (float)total/100);
+    printf("%.2Lf",(long double)total/100);
+    return 0;
+}

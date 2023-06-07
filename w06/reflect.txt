@@ -1,0 +1,37 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #6
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca
+Section    : NJJ
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1. Parallel arrays allowed programmers to store information that are the same 
+size as each other. We can use the parallel array to recall back to data that 
+we stored and use the data within a different part of the program. 
+I have used parral arrays to store the information for each item so that 
+I can recall to the information later. I used 4 different parral arrays to 
+store the item number, priority, financed and cost of each item. To recall 
+back to an item all I needed to do is enter 1 number in each parallel array 
+to access all the information I need.
+
+2.Its important since the beginning of an array has an index of 0 therefore 
+if we set the  array index with 1 and store the value, when printing each 
+value in the array an error may occur since there is no value that is stored 
+at the beginning. I have used this in my program when searching for a value 
+within a parallel array and by setting the iterator value by 1 it prints out 
+a random number instead of the number that i have stored within the parallel.
+
+3.An array is a technique to arrange items in rows and columns. The column 
+that are vertical, runs top to bottom, and the rows are horizontal, runs left 
+to right. Each column allows each row to have a certain number of empty spaces. 
+In a array we must figure out how the right number of columns and rows to store any number of items. 
+If there is 10 columns and and we need to store 10 items in a row we have enough columns. 
+If we have 10 columns and need to store 2 items we have enough columns since we only need 2 
+columns out of the 10 columns that we have. If we have 10 columns and need to store 11 items 
+we dont have to enough columns and need to add more columns.
