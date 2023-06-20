@@ -1,0 +1,49 @@
+﻿*****************************************************************************
+                        Assignment 1 - Milestone 3
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca
+Section    : NJJ
+
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+
+1.
+void AppointmentSort(struct Appointment* data, int size);
+The purpose of this function is to sort all the appointments that is provided by the text file included in this milestone and any user input. 
+The function will sort the appointment structure by date and time in ascending order every time it's called. 
+To call the function a user must enter a structure that includes a structure array via pointer type and an integer indicating the number of current appointments that are stored.
+
+
+void valid_phone(char* string, int min, int max);
+The purpose of this function is to check to see if the user has inputted a valid phone number with 10 integers and no characters or strings. 
+The function will check each character to see if it's a valid integer and count the number of integers. 
+The function will prompt the user to enter another value if the conditions are not met.
+
+
+int timetest(int a, int b);
+The purpose of this function is to check to see if the user has inputted a time between certain times at certain intervals. 
+For example, this workshop requires the user a time between 10:00 to 14:00 in 30-minute intervals. 
+The function would check if the minutes are able to be divided by 30 and would return a remainder of 0. It will also check if the hour interval does not exceed 14 and is greater or equal to 10.
+
+
+2. 
+I used 61 lines in order to create the function. When I was creating the function I noticed that I need to sort the Appointment structure array when adding a user to the structure. 
+I also noticed that I needed to find the number of appointments that is currently in the system and to check and see if the user inputted a time within certain parameters. 
+I have seen other functions throughout the milestone that also needed to do the same logic. I have created 3 functions to combat this issue and saved 51 lines of code. 
+This has made the function more readable, more efficient, and more reliable since having multiple lines of the same code in different functions can be overwhelming when debugging. 
+It also prevents error that can occur when writing the same lines of codes multiple since the more line you create, the higher chance an logical error can occur. 
+If there was an error within the code instead of editing it multiple times in different functions and if there is an error with the code, you can just edit the code from one function instead of multiple functions.
+
+
+3. In order to complete the milestone on time I have created a plan inorder to complete the task at hand. The milestone required us to create 5 mandatory functions, 3 structures types, and a minimum of 3 custom made functions that you have to create. 
+I have started working on the structures that will store the patient data and appointment data from and the functions that are responsible to read the items within a text file. 
+After finishing and debugging the functions I created I had to create a function that will find the number of imported patients and another function that would sort the appointment date and time in ascending order.
+ The sorting function has was a major challenge for me in this workshop since I had to sort multiple values at the same time which took me some time figuring out the logic. 
+After finishing the sorting function I completed the 5 mandatory functions with the help of the custom functions that I have created and compile it and format it using the matrix. 
+On the last 2 day I have resrve some time creating the 600 word reflection that we were required to complete.
